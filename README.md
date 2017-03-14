@@ -16,7 +16,7 @@ Using DOCKER :(Coming Soon)
   And after you need some CRONTAB configuration.
 
   ```sh
-      $curl localhost:3000/api/locations/12
+      $curl localhost:3000/quakes/12
       //12 numbered city.
 
       $  'sehir': AĞRI,
@@ -43,6 +43,27 @@ On schedule.rb file change the .log file path on your system.
   set :environment, "development"#according as :environment it using [DATABASENAME]_development
 
 ```
+
+```sh
+  $curl localhost:3000/quakes
+  $[
+        {
+        'id': 22038,
+        'date': '2017-03-12',
+        'power': 2.4,
+        'city_id': 80,
+        'latitude': 37.1208,
+        'longitude': 36.1817,
+        'created_at': '2017-03-11T22:44:53.000Z',
+        'updated_at': '2017-03-11T22:44:53.000Z',
+        'time': '2000-01-01T00:02:34.000Z'
+        },
+        '.'
+        '.'
+        '.'
+```
+
+
 
 FOR FETCH ALL QUAKE DATA
 ```sh
