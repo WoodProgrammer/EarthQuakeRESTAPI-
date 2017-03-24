@@ -17,30 +17,32 @@ Using DOCKER :(Coming Soon)
   ```
   And after you need some CRONTAB configuration.
 
+
+
+
     ```sh
+
       //GET localhost:3000/cities.json
         $curl localhost:3000/cities.json
         //all cities
 
-        $  {
-                    'şehirler': [
-                    {
-                    'id': 1,
-                    'name': 'ADANA',
-                    'latitude': 37,
-                    'longitude': 35.3213
-                    },
-                    {
-                    'id': 2,
-                    'name': 'ADIYAMAN',
-                    'latitude': 37.7648,
-                    'longitude': 38.2786
-                    },
-                    ...
-                    .....
+        $  
+        {
+        'şehirler':{
+              'id': 1,
+              'name': 'ADANA',
+              'latitude': 37,
+              'longitude': 35.3213
+            },
+              {
+              'id': 2,
+              'name': 'ADIYAMAN',
+              'latitude': 37.7648,
+              'longitude': 38.2786
+            }
 
+        ```
 
-    ```
 
   ```sh
     //GET localhost:3000/quakes/[PLATE_CODE_OF_CITY]
@@ -86,9 +88,7 @@ On schedule.rb file change the .log file path on your system.
         'updated_at': '2017-03-11T22:44:53.000Z',
         'time': '2000-01-01T00:02:34.000Z'
         },
-        '.'
-        '.'
-        '.'
+
 ```
 
 
