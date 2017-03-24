@@ -20,25 +20,23 @@ Using DOCKER :(Coming Soon)
 
 
 
-    ```sh
-
+    ```
       //GET localhost:3000/cities.json
         $curl localhost:3000/cities.json
         //all cities
 
-        $  
-        {
-        'şehirler':{
-              'id': 1,
-              'name': 'ADANA',
-              'latitude': 37,
-              'longitude': 35.3213
-            },
-              {
-              'id': 2,
-              'name': 'ADIYAMAN',
-              'latitude': 37.7648,
-              'longitude': 38.2786
+        $    {
+                  'şehirler':{
+                        'id': 1,
+                        'name': 'ADANA',
+                        'latitude': 37,
+                        'longitude': 35.3213
+                      },
+                        {
+                        'id': 2,
+                        'name': 'ADIYAMAN',
+                        'latitude': 37.7648,
+                        'longitude': 38.2786
             }
 
         ```
