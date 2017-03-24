@@ -1,4 +1,6 @@
 # Quake_data_API
+
+# API DOCUMENTATION
 Quake_data_API is a web service for TURKEY quake datas.
 This is the most powerful feature of RUBY ON RAILS.
 ```ruby
@@ -15,7 +17,33 @@ Using DOCKER :(Coming Soon)
   ```
   And after you need some CRONTAB configuration.
 
+    ```sh
+      //GET localhost:3000/cities.json
+        $curl localhost:3000/cities.json
+        //all cities
+
+        $  {
+                    'şehirler': [
+                    {
+                    'id': 1,
+                    'name': 'ADANA',
+                    'latitude': 37,
+                    'longitude': 35.3213
+                    },
+                    {
+                    'id': 2,
+                    'name': 'ADIYAMAN',
+                    'latitude': 37.7648,
+                    'longitude': 38.2786
+                    },
+                    ...
+                    .....
+
+
+    ```
+
   ```sh
+    //GET localhost:3000/quakes/[PLATE_CODE_OF_CITY]
       $curl localhost:3000/quakes/12
       //12 numbered city.
 
