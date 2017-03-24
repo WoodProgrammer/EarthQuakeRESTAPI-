@@ -1,4 +1,4 @@
-# Quake_data_API
+# TURKEY QUAKE DATA API
 
 # API DOCUMENTATION
 Quake_data_API is a web service for TURKEY quake datas.
