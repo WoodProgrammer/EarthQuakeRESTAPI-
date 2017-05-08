@@ -11,10 +11,7 @@ This is the most powerful feature of RUBY ON RAILS.
 Rendering datas multiple format(only some configuration).
 
 For using this api on your local system:
-Using DOCKER :(Coming Soon)
-  ``` sh
-      $ sudo docker pull nkudatascience/quake_data_api_master
-  ```
+Using DOCKER :(Coming Soon) 
   And after you need some CRONTAB configuration.
 
 
