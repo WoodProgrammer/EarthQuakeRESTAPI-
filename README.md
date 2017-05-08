@@ -11,9 +11,10 @@ This is the most powerful feature of RUBY ON RAILS.
 Rendering datas multiple format(only some configuration).
 
 For using this api on your local system:
-Using DOCKER :(Coming Soon) 
-  And after you need some CRONTAB configuration.
-
+Using DOCKER :(Coming Soon) for developing and serving
+  
+   And after you need some CRONTAB configuration.
+  
 
 
 
